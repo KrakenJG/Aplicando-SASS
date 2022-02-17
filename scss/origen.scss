@@ -1,0 +1,37 @@
+@import "../scss/bootstrap/bootstrap.scss";
+@import "../scss/_variables.scss";
+@import "../scss/_colores.scss";
+@import "../scss/_estructura.scss";
+@import "../scss/_reseteo.scss";
+@import "../scss/_tipografia.scss";
+
+
+
+
+
+
+
+.logo {
+    width: 10vw;
+    min-width: 70px;
+    max-width: 100px;
+    height: auto;
+}
+.logoFooter {
+    width: 10vw;
+    min-width: 15px;
+    max-width: 40px;
+    height: auto;
+}
+.carouselImg {
+    object-fit: cover;
+    width: $anchoTotal;
+    max-height: 73vh;
+}
+.imgCatalogo img {
+    width: 55%;
+    min-width: 50px;
+    max-width: 175px;
+    min-height: 50px;
+    max-height: 175px;
+}
