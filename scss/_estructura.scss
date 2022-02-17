@@ -1,9 +1,17 @@
 body {
+    -webkit-font-smoothing: antialiased;
     width: $anchoTotal;
     height: 100vh;
 }
 header {
     width: $anchoTotal;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+li {
+    &:active {
+        transform: translateY(5px);
+    }
 }
 section {
     width: $anchoTotal;
@@ -16,4 +24,28 @@ article {
 }
 footer {
     width: $anchoTotal;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.logo {
+    width: 10vw;
+    min-width: 70px;
+    max-width: 100px;
+    height: auto;
+}
+.logoFooter {
+    width: 10vw;
+    min-width: 15px;
+    max-width: 40px;
+    height: auto;
+}
+.imgCatalogo {
+    img {
+        width: 55%;
+        min-width: 50px;
+        max-width: 175px;
+        min-height: 50px;
+        max-height: 175px;
+    }
 }
